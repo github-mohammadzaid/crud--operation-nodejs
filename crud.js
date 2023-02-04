@@ -64,7 +64,7 @@ router.get('/cartegory/:id', async(req,res)=>{
 
   // product-master
 
-const product = require('../model/productschema');
+const product = require('../productschema');
 
   //    post data
  router.post('/product',async (req,res)=>{ 
