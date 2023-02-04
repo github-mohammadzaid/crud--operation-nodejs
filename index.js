@@ -1,10 +1,10 @@
  const express = require('express');
- require('./model/database');
+ require('./database');
  const port = 3000;
  const app = express();
  app.use(express.json());
 
-const routercrud = require('./routes/crud');
+const routercrud = require('./crud');
 app.use('/app',routercrud);
 
 
