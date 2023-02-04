@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 //            category-master
-const Category = require('../model/categoryschema');
+const Category = require('../categoryschema');
 // create a new category
 router.post('/cartegory', async  (req,res)=>{  
     try{
